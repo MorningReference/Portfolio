@@ -1,5 +1,29 @@
-#mainBanner{
-    height: 100%;
+.mainBanner{
+    min-height: 100%;
+    min-width: 1024px;
+    height: auto;
     width: 100%;
-    background-image: '../static/img/Homepage_Gif.gif';
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url('../static/img/Bridge.gif') no-repeat center center fixed;
+    /* background-color: black; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/* .headlineContainer{
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+} */
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+        left: 50%;
+        margin-left: -512px;   /* 50% */
+    }
 }

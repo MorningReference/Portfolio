@@ -32,18 +32,18 @@ export default (props) => {
                     </button>
                 </div>
             </div>
-            <section class="modal-containers">
-                <div class="modal fade" id="JiraCloneModal" tabindex="-1" role="dialog" aria-labelledby="JiraCloneModal" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Geera - A Jira Clone</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <section className="modal-containers">
+                <div className="modal fade" id="JiraCloneModal" tabIndex="-1" role="dialog" aria-labelledby="JiraCloneModal" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLongTitle">Geera - A Jira Clone</h5>
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                <img class="img-fluid my-2" src="~/assets/img/gif/JiraClone.gif" alt="" />
+                            <div className="modal-body">
+                                <img className="img-fluid my-2" src="~/assets/img/gif/JiraClone.gif" alt="" />
                                 <p><span>Technologies used:</span> React, Node.js, MongoDB, Mongoose, Express, JavaScript, HTML, CSS, Sockets.io, NoSQL, JWT</p>
                                 <p><span>The Inspiration:</span> As project management platforms are essential in keeping everyone organized and accountable in the industry, I thought it would be a great project for us to learn the in's and out's of this tool. </p>
                                 <p><span>The Difference:</span> Our project sets itself apart from the original application by updating tasks in real-time by using sockets, which Jira does not.</p>
@@ -55,17 +55,17 @@ export default (props) => {
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="OneStopShopModal" tabindex="-1" role="dialog" aria-labelledby="OneStopShopModal" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">OneStopShop - For All Your Shopping Needs</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <div className="modal fade" id="OneStopShopModal" tabIndex="-1" role="dialog" aria-labelledby="OneStopShopModal" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLongTitle">OneStopShop - For All Your Shopping Needs</h5>
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                <img class="img-fluid my-2" src="~/assets/img/gif/OneStopShop.gif" alt="" />
+                            <div className="modal-body">
+                                <img className="img-fluid my-2" src="~/assets/img/gif/OneStopShop.gif" alt="" />
                                 <p><span>Technologies used:</span> Python, MySQL, Jinja2, HTML, CSS, Bootstrap, JavaScript, jQuery, AJAX</p>
                                 <p><span>The Inspiration:</span> The idea had started off as a personal project, as my friend had been wanting a platform to sell his work on printful. Due, to the cost of sustaining the website through third party platforms and marketplaces, I thought that this might be a great opportunity to try and create an E-Commerce website as a project, as these sites are always in demand. A few of my collaborators were in agreement and this proved to be a great first project for us.</p>
                                 <p><span>The Difference:</span> Most of the websites built to host all of the products are done through third-party platforms, but we had built a website from scratch and utilized printful's API to render any products that are to be sold.</p>
@@ -77,17 +77,17 @@ export default (props) => {
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="DemonSlayerModal" tabindex="-1" role="dialog" aria-labelledby="DemonSlayerModal" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Demon Slayer - 2D Action RPG Platformer Game</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <div className="modal fade" id="DemonSlayerModal" tabIndex="-1" role="dialog" aria-labelledby="DemonSlayerModal" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLongTitle">Demon Slayer - 2D Action RPG Platformer Game</h5>
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
-                            <div class="modal-body">
-                                <img class="img-fluid my-2" src="~/assets/img/gif/DemonSlayer.gif" alt="" />
+                            <div className="modal-body">
+                                <img className="img-fluid my-2" src="~/assets/img/gif/DemonSlayer.gif" alt="" />
                                 <p><span>Technologies used:</span> Unity, C#, PlasticSCM, UnityTeams</p>
                                 <p><span>The Inspiration:</span> As a lover of games, I had always been interested in game development. Our team took this opportunity to create a game based on a popular Japanese anime called Demon Slayer</p>
                                 <p><span>The Difference:</span> We had the chance to utilize all of the pre-made assets to create all of the features necessary for our game, but we had stuck to the bare minimum for the sake of the experience that we would be able to gain from this. We had also collaborated with an artist that was able to provide us with our main character's asset and animation within the short time frame that we provided him.</p>
